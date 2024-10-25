@@ -1,0 +1,48 @@
+
+.mandatory{
+    padding-left:75% ;
+    font-style: italic;
+    color: gray;
+    font-weight: bold;
+    font-size: small;
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 50%;
+    
+
+}
+
+
+
+.both ,.last{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.detail{
+   
+    width: 250px;
+    height: 30px;
+    
+}
+
+.secondContainer{
+    margin-left: 55px;
+    margin-bottom: 40px;
+
+}
+
+.star{
+    color:red;
+    }
+
+
+
+

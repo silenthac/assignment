@@ -1,0 +1,138 @@
+
+.circle{
+    border:1px solid white;
+    width:15px;
+    height:15px;
+    border-radius:100%;
+    position:relative;
+    margin:15px;
+    display:inline-block;
+    vertical-align:middle;
+    margin-bottom: 16px;
+    
+  }
+
+  .circle.plus:before,
+.circle.plus:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background:white;
+}
+.circle.plus:before{
+    width: 1px;
+    margin: 1px auto;
+}
+.circle.plus:after{
+    margin: auto 1px;
+    height: 1px;
+}
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+button{
+    height: 40px;
+    margin-top:20px;
+    margin-right: 20px;
+    background-color: rgb(86, 181, 86);
+    color: white;
+}
+
+.search{
+
+    margin-top: 30px;
+    padding-right: 20px;
+    color: gray;
+    width: 30px;
+    
+}
+
+.rightSide{
+    display: flex;
+
+}
+
+p{
+    color: green;
+}
+
+.details{
+    margin: 20px;
+    height: 30px;
+    width: 200px;
+    
+}
+
+.searchInput{
+    height: 70px;
+    background-color: rgb(223, 223, 223);
+    margin-top: 20px;
+    margin-left: 5px;
+    
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  
+  /* tr:nth-child(even) {
+    background-color: #f9f9f9;
+    
+  } */
+  
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border: none; 
+  }
+  
+  /* th {
+    background-color: #4CAF50;
+    color: white;
+  } */
+  td:nth-child(1) , td:nth-child(3) {
+
+    font-weight: bolder;
+    
+  }
+
+  .findContainer{
+    height: 50%;
+  }
+
+  .scrollable-table {
+    max-height: 200px; /* Set a max height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    display: block; /* Allow scrolling */
+  }
+  
+  .scrollable-table table {
+    width: 100%; /* Ensure the table takes full width */
+    border-collapse: collapse; /* Optional: collapse borders */
+  }
+  
+
+  
